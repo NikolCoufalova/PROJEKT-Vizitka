@@ -1,6 +1,103 @@
-/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+/* html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; } */
+
+
+html {
+    background-color:#b2bec3 ;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #d63031;
+    padding-top: 30px;
+}
+
+.Eliska {
+    padding-left: 30px;
+}
+
+.text {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 550px;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    position: relative;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.fotka {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transform: translate(50%, -50%);
+    overflow: hidden;
+}
+
+.tlacitkotw {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:#1da1f2;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tlacitkotw:hover {
+    background-color: #0b7bc1;
+}
+
+.tlacitkotw a {
+    color: white;
+    text-decoration: none;
+    display:block;
+}
+
+
+.tlacitkofb {
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:#3b5998;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tlacitkofb:hover {
+    background-color:#2b406e;
+}
+
+.tlacitkofb a {
+    color: white;
+    text-decoration: none;
+    display:block;
+}
 
 /*
 BARVY:
